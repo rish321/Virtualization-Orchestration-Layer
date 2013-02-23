@@ -1,0 +1,9 @@
+virt-install --connect qemu:///system --virt-type kvm --name MyNewVM --ram 512 --disk path=/var/lib/libvirt/images/MyNewVM.img,size=8 --vnc --cdrom /var/lib/libvirt/images/Fedora-14-x86_64-Live-KDE.iso --network network=default,mac=52:54:00:9c:94:3b --os-variant fedora14
+virsh start MyNewVM
+virsh shutdown <domain>
+virsh reboot <domain>
+virsh destroy <domain>
+virsh suspend <domain>
+virsh resume <domain>
+virsh undefine <domain>
+

@@ -1,0 +1,8 @@
+http://server/vm/create?name=test_vm&vm_type=vtype&image_type=itype
+http://server/vm/query?vmid=vmid
+http://server/vm/destroy?vmid=vmid
+http://server/vm/types
+http://server/pm/list
+http://server/pm/pmid/listvms
+http://server/pm/pmid
+http://server/image/list
