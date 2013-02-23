@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/rishabh/eclipse/libvirt-0.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/rishabh/eclipse/jna-3.4.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="lib" path="/home/rishabh/eclipse/lib/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/rishabh/eclipse/lib/libvirt-0.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/rishabh/eclipse/lib/json-rpc-1.0.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-ant-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-client-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-core-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-examples-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-minicluster-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-test-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/hadoop-tools-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/usr/local/hadoop/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
